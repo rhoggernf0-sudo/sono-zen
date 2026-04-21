@@ -1,0 +1,65 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 30% 2%;
+    --foreground: 210 20% 98%;
+    --card: 220 30% 4%;
+    --card-foreground: 210 20% 98%;
+    --popover: 220 30% 4%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 212 45% 19%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 262 48% 48%;
+    --secondary-foreground: 210 20% 98%;
+    --muted: 220 15% 15%;
+    --muted-foreground: 210 10% 70%;
+    --accent: 146 50% 36%;
+    --accent-foreground: 210 20% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 220 15% 15%;
+    --input: 220 15% 15%;
+    --ring: 262 48% 48%;
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline;
+  }
+}
+
+.glass {
+  background: rgba(26, 46, 68, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-dark {
+  background: rgba(10, 10, 10, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #ffffff, #6C40B5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gradient-radial {
+  background: radial-gradient(circle at center, var(--tw-gradient-from), var(--tw-gradient-to));
+}

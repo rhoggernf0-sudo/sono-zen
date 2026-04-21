@@ -1,0 +1,40 @@
+{
+  "placeholderImages": [
+    {
+      "id": "chinese-method-ritual",
+      "description": "Ritual de medicina tradicional chinesa com ervas secas, tigelas de madeira e um bule de chá ancestral",
+      "imageUrl": "https://i.imgur.com/zhX81Yx.jpeg",
+      "imageHint": "chinese medicine"
+    },
+    {
+      "id": "insomnia-night-struggle",
+      "description": "Pessoa frustrada na cama olhando para um relógio digital que marca 3:00 da manhã em um quarto escuro",
+      "imageUrl": "https://i.imgur.com/dPU6WjE.jpeg",
+      "imageHint": "insomnia clock"
+    },
+    {
+      "id": "relaxation-scene",
+      "description": "A peaceful bedroom environment with soft lighting",
+      "imageUrl": "https://picsum.photos/seed/sonorelax3/800/600",
+      "imageHint": "peaceful bedroom"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "A smiling person looking well-rested",
+      "imageUrl": "https://picsum.photos/seed/user1/200/200",
+      "imageHint": "happy person"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "A calm person meditating or relaxing",
+      "imageUrl": "https://picsum.photos/seed/user2/200/200",
+      "imageHint": "calm person"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "A healthy energetic person waking up",
+      "imageUrl": "https://picsum.photos/seed/user3/200/200",
+      "imageHint": "energetic waking up"
+    }
+  ]
+}
